@@ -7,25 +7,14 @@
 2. Anwar bin Muzamir 1928317
 3. Azrul Zharfan bin Shuhaime 1911399
 ## Assigned Tasks for Group Members:
-1. Server OS and Server-Side Scripting used (Windows or Linux, PHP or ASP.net or JavaScript, etc.  :
 
-2. Hash Disclosure                                                                                 : 
+1. CSRF                                                                                            : **Ikram**
 
-3. CSRF                                                                                            : **Ikram**
+2. Secured Cookies                                                                                 : **Irfan**
 
-4. Secured Cookies                                                                                 : **Irfan**
+3. CSP                                                                                             : **Anwar**
 
-5. CSP                                                                                             : **Anwar**
-
-6. JS Library                                                                                      : 
-
-7. HTTPS implementation (TLS/SSL)                                                                  : 
-
-8. Cookie Poisoning                                                                                :
-
-9. Potential XSS                                                                                   : 
-
-10. Information Disclosure                                                                         : **Azrul**
+4. Information Disclosure                                                                         : **Azrul**
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -100,6 +89,11 @@ script-src 'unsafe-eval' sf16-website-login.neutral.ttwstatic.com s20.tiktokcdn.
 ### Hash Disclosure<a name="para2b"></a>
 ### CSRF<a name="para2c"></a>
 ### Secured Cookies<a name="para2d"></a>
+The rating for the vulnerability using the Automated Scan is shown in the table below:
+| Cookies Type | Risk | CWE ID | Parameter | Additional Info |
+|---|---|---|---|---|
+|Cookie Without Secure Flag| Medium | 614 | ttwid | Improper Restriction of Names for Files and Other Resources 
+
 ### CSP<a name="para2e"></a>
 The rating for the vulnerability using the Automated Scan is shown in the table below:  
 | RISK | CWE ID | Parameter | Additional Info |
