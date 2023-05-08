@@ -104,12 +104,7 @@ script-src 'unsafe-eval' sf16-website-login.neutral.ttwstatic.com s20.tiktokcdn.
 The rating for the vulnerability using the Automated Scan is shown in the table below:  
 | RISK | CWE ID | Additional Info |
 |---|---|---|
-|Medium|693|The frame-ancestors and form-action directives, are not defined, or are overly broadly defined.|  
-The rating for the vulnerability using the Manual Explore is shown in the table below:  
-| RISK | CWE ID | Additional Info |
-|---|---|---|
-|Medium|693|The frame-ancestors and form-action directives, are not defined, or are overly broadly defined.|  
-
+|Medium|693|The frame-ancestors and form-action directives, are not defined, or are overly broadly defined.|
 ### JS Library<a name="para2f"></a>
 ### HTTPS implementation (TLS/SSL)<a name="para2g"></a>
 ### Cookie Poisoning<a name="para2h"></a>
