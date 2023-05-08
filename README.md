@@ -21,8 +21,8 @@
 1. [Introduction](#introduction)
 
 2. [Identify the Vulnerabilities](#para1)
-   1. (#para1a)
-   2. (#para1b)
+   1. [Server OS and Server-Side Scripting used (Windows or Linux, PHP or ASP.net or JavaScript, etc.](#para1a)
+   2. [Hash Disclosure](#para1b)
    3. [CSRF](#para1c)
    4. [Secured Cookies](#para1d)
    5. [CSP](#para1e)
