@@ -90,9 +90,15 @@ script-src 'unsafe-eval' sf16-website-login.neutral.ttwstatic.com s20.tiktokcdn.
 ### CSRF<a name="para2c"></a>
 ### Secured Cookies<a name="para2d"></a>
 The rating for the vulnerability using the Automated Scan is shown in the table below:
-| Cookies Type | Risk | CWE ID | Parameter | Additional Info |
-|---|---|---|---|---|
-|Cookie Without Secure Flag| Medium | 614 | ttwid | Improper Restriction of Names for Files and Other Resources 
+| Cookies Type |Total Risk| Risk | CWE ID | Parameter | Additional Info |
+|---|---|---|---|---|---|
+|Cookie Without Secure Flag| 7 | Low | 614 | ttwid | Improper Restriction of Names for Files and Other Resources|
+|---|---|---|---|---|---|
+| Cookie With SameSite Attribute None | 5 | Low | 1275 | ttwid | Sensitive Cookie with Improper SameSite Attribute |
+|---|---|---|---|---|---|
+| Cookie without SameSite Attribute | 11 | Low | 1275 | tt_chain_token | Sensitive Cookie with Improper SameSite Attribute |
+|---|---|---|---|---|---|
+
 
 ### CSP<a name="para2e"></a>
 The rating for the vulnerability using the Automated Scan is shown in the table below:  
