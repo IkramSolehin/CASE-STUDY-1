@@ -83,7 +83,7 @@ script-src 'unsafe-eval' sf16-website-login.neutral.ttwstatic.com s20.tiktokcdn.
 ### CSRF<a name="para2c"></a>
 
 The rating for the vulnerability using the Automated Scan is shown in the table below:
-| RISK | Total Alerts | CWE ID | Additional Info |
+| RISK | Total URLs | CWE ID | Additional Info |
 |---|---|---|---|
 | Medium | 6 | 352 | Absence of Anti-CSRF Tokens |
 
