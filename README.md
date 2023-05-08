@@ -54,6 +54,20 @@ The vulnerabilities that is found using Automated Scan for (https://www.tiktok.c
 ```
 
 ### Secured Cookies<a name="para1d"></a>
+The vulnerabilities found using Automated Scan for Cookie Without Secure Flag( https://www.tiktok.com) shown in line of code below:
+```
+Set-Cookie: ttwid=1%7CnkDwKYJY_0J8qu0z7yEbYXtLvf11G40zNLQWPTssdbI%7C1683561735%7C104678a03c654a876a9cef2d197d37779978f0c0675e715865c6870408b163ad; Path=/; Expires=Wed, 08 May 2024 16:02:15 GMT; HttpOnly 
+```
+
+The vulnerabilities found using Automated Scan for Cookie With SameSite Attribute None(https://www.tiktok.com/community-guidelines) shown in line of code below:
+``` 
+Set-Cookie: ttwid=1%7C8E8c1sgOCFN9umi9rrzP5cD3w983ohUuG5Gg1p2pZLg%7C1683561735%7C68178a16e8f90a6098459bdaa06d31e97e3cf8b46553bcdd5825f9969d3c19ef; Domain=.tiktok.com; Path=/; 
+```
+
+The vulnerabilities found using Automated Scan for Cookie Without SameSite Attribute(https://www.tiktok.com/discover) shown in line of code below:
+``` 
+Set-Cookie: tt_chain_token=BWi3Nq+ysr0TK62uSs3QQA==; path=/; expires=Mon, 08 May 2023 22:02:15 GMT; domain=.tiktok.com; secure; httponly
+```
 
 ### CSP<a name="para1e"></a>
 The vulnerabilities that is found using Automated Scan for (https://www.tiktok.com/) is shown in line of code below:  
