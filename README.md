@@ -10,7 +10,7 @@
 
 2. Hash Disclosure                                                                                 : 
 
-3. CSRF                                                                                            : Ikram
+3. CSRF                                                                                            : **Ikram**
 
 4. Secured Cookies                                                                                 : 
 
