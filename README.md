@@ -82,6 +82,18 @@ script-src 'unsafe-eval' sf16-website-login.neutral.ttwstatic.com s20.tiktokcdn.
 ### Cookie Poisoning<a name="para1h"></a>
 ### Potential XSS<a name="para1i"></a>
 ### Information Disclosure<a name="para1j"></a>
+The vulnerabilities that is found using Automated Scan for Information Disclosure - Debug Error Messages is shown in line of code below:  
+```
+-
+```  
+The vulnerabilities that is found using Automated Scan for Information Disclosure - Sensitive Information in URL is shown in line of code below:  
+```
+-
+```  
+The vulnerabilities that is found using Automated Scan for Information Disclosure - Suspicious Comments is shown in line of code below:  
+```
+-
+```  
 
 ## Evaluate the Vulnerabilities<a name="para2"></a>
 
