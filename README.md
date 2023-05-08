@@ -1,6 +1,6 @@
 # CASE-STUDY-1
 
-## Group Name:
+## Group Name: Sitta
 
 ## Group Members:
 1. Ikram Solehin bin Mohd Rizal 2014303
