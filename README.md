@@ -60,15 +60,16 @@
    4. [Secured Cookies](#para3d)
    5. [CSP](#para3e)
    6. [JS Library](#para3f)
-   7. [HTTPS implementation (TLS/SSL)](#para3
-   8. g)
-   9. [Cookie Poisoning](#para3h)
-   10. [Potential XSS](#para3i)
-   11. [Information Disclosure](#para3j)
+   7. [HTTPS implementation (TLS/SSL)](#para3)
+   8. [Cookie Poisoning](#para3h)
+   9. [Potential XSS](#para3i)
+   10. [Information Disclosure](#para3j)
 
 ## Introduction<a name="introduction"></a>
 
 ## Identify the Vulnerabilities<a name="para1"></a>
+
+### Server OS and Server-Side Scripting used (Windows or Linux, PHP or ASP.net or JavaScript, etc.<a name="para1a"></a>
 
 ## Evaluate the Vulnerabilities<a name="para2"></a>
 
