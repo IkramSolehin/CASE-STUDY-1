@@ -80,9 +80,14 @@ The topic for the vulnerabilities that will be cover is the description of the i
 ### CSRF<a name="para1c"></a>
 ### Secured Cookies<a name="para1d"></a>
 ### CSP<a name="para1e"></a>
-The vulnerabilities that is found using Automated Scan is:  
+The vulnerabilities that is found using Automated Scan is shown in line of code below:  
 ```
+script-src 'unsafe-eval' sf16-website-login.neutral.ttwstatic.com s20.tiktokcdn.com *.tiktokcdn-us.com;frame-src *.tiktok.com accounts.google.com www.google.com recaptcha.google.com www.facebook.com *.kakao.com lf16-web.tiktokcdn.com assets.braintreegateway.com appleid.apple.com access.line.me api.twitter.com h.online-metrix.net bytedance:;worker-src https: blob:
+```  
+The vulnerabilities that is found using Manual Explore is shown in line of code below:  
 ```
+script-src 'unsafe-eval' sf16-website-login.neutral.ttwstatic.com s20.tiktokcdn.com *.tiktokcdn-us.com;frame-src *.tiktok.com accounts.google.com www.google.com recaptcha.google.com www.facebook.com *.kakao.com lf16-web.tiktokcdn.com assets.braintreegateway.com appleid.apple.com access.line.me api.twitter.com h.online-metrix.net bytedance:;worker-src https: blob:
+```  
 ### JS Library<a name="para1f"></a>
 ### HTTPS implementation (TLS/SSL)<a name="para1g"></a>
 ### Cookie Poisoning<a name="para1h"></a>
