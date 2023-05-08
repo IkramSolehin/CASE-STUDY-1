@@ -118,7 +118,8 @@ The rating for the vulnerability using the Automated Scan is shown in the table 
 ### CSRF<a name="para3c"></a>
 ### Secured Cookies<a name="para3d"></a>
 ### CSP<a name="para3e"></a>
-To prevent the vulnerability to become a threat is to make sure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.
+To prevent the vulnerability to become a threat is to make sure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.  
+
 ### JS Library<a name="para3f"></a>
 ### HTTPS implementation (TLS/SSL)<a name="para3g"></a>
 ### Cookie Poisoning<a name="para3h"></a>
