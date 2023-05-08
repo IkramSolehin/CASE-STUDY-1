@@ -105,6 +105,7 @@ The rating for the vulnerability using the Automated Scan is shown in the table 
 | RISK | CWE ID | Parameter | Additional Info |
 |---|---|---|---|
 |Medium|693|Content-Security-Policy|The frame-ancestors and form-action directives, are not defined, or are overly broadly defined.|  
+
 The rating for the vulnerability using Manual Explore is shown in the table below:  
 | RISK | CWE ID | Parameter | Additional Info |
 |---|---|---|---|
