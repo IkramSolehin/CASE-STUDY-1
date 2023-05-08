@@ -14,7 +14,7 @@
 
 4. Secured Cookies                                                                                 : 
 
-5. CSP                                                                                             : 
+5. CSP                                                                                             : **Anwar**
 
 6. JS Library                                                                                      : 
 
