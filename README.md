@@ -93,7 +93,6 @@ https://www.tiktok.com/api/policy/notice/?aid=1988&app_language=en&app_name=tikt
 The vulnerabilities that is found using Automated Scan for Information Disclosure - Suspicious Comments is shown in line of code below:  
 ```
 script-src 'unsafe-eval' sf16-website-login.neutral.ttwstatic.com s20.tiktokcdn.com *.tiktokcdn-us.com;frame-src *.tiktok.com accounts.google.com www.google.com recaptcha.google.com www.facebook.com *.kakao.com lf16-web.tiktokcdn.com assets.braintreegateway.com appleid.apple.com access.line.me api.twitter.com h.online-metrix.net bytedance:;worker-src https: blob:
-Feature-Policy: microphone 'none'; geolocation 'none'
 ```  
 
 ## Evaluate the Vulnerabilities<a name="para2"></a>
