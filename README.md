@@ -108,7 +108,7 @@ The rating for the vulnerability using the Automated Scan is shown in the table 
 
 The rating for the vulnerability using Manual Explore is shown in the table below:  
 | RISK | CWE ID | Parameter | Additional Info |
-|---|---|---|---|
+| --- | --- | --- | --- |
 |Medium|693|Content-Security-Policy|The frame-ancestors and form-action directives, are are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything.|
 ### JS Library<a name="para2f"></a>
 ### HTTPS implementation (TLS/SSL)<a name="para2g"></a>
