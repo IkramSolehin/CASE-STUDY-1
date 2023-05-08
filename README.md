@@ -71,9 +71,39 @@
 
 ### Server OS and Server-Side Scripting used (Windows or Linux, PHP or ASP.net or JavaScript, etc.<a name="para1a"></a>
 ### Hash Disclosure<a name="para1b"></a>
+### CSRF<a name="para1c"></a>
+### Secured Cookies<a name="para1d"></a>
+### CSP<a name="para1e"></a>
+### JS Library<a name="para1f"></a>
+### HTTPS implementation (TLS/SSL)<a name="para1g"></a>
+### Cookie Poisoning<a name="para1h"></a>
+### Potential XSS<a name="para1i"></a>
+### Information Disclosure<a name="para1j"></a>
 
 ## Evaluate the Vulnerabilities<a name="para2"></a>
 
+### Server OS and Server-Side Scripting used (Windows or Linux, PHP or ASP.net or JavaScript, etc.<a name="para2a"></a>
+### Hash Disclosure<a name="para2b"></a>
+### CSRF<a name="para2c"></a>
+### Secured Cookies<a name="para2d"></a>
+### CSP<a name="para2e"></a>
+### JS Library<a name="para2f"></a>
+### HTTPS implementation (TLS/SSL)<a name="para2g"></a>
+### Cookie Poisoning<a name="para2h"></a>
+### Potential XSS<a name="para2i"></a>
+### Information Disclosure<a name="para2j"></a>
+
 ## Prevent the Vulnerabilities<a name="para3"></a>
+
+### Server OS and Server-Side Scripting used (Windows or Linux, PHP or ASP.net or JavaScript, etc.<a name="para3a"></a>
+### Hash Disclosure<a name="para3b"></a>
+### CSRF<a name="para3c"></a>
+### Secured Cookies<a name="para3d"></a>
+### CSP<a name="para3e"></a>
+### JS Library<a name="para3f"></a>
+### HTTPS implementation (TLS/SSL)<a name="para3g"></a>
+### Cookie Poisoning<a name="para3h"></a>
+### Potential XSS<a name="para3i"></a>
+### Information Disclosure<a name="para3j"></a>
 
 
