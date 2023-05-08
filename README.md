@@ -92,11 +92,11 @@ script-src 'unsafe-eval' sf16-website-login.neutral.ttwstatic.com s20.tiktokcdn.
 The rating for the vulnerability using the Automated Scan is shown in the table below:
 | Cookies Type |Total Risk| Risk | CWE ID | Parameter | Additional Info |
 |---|---|---|---|---|---|
-| Cookie Without Secure Flag | 2 | Low | 200 | - | Exposure of Sensitive Information to an Unauthorized Actor|
+|Cookie Without Secure Flag| 7 | Low | 614 | ttwid | Improper Restriction of Names for Files and Other Resources|
 |  |  |  |  |  |  |
-| Information Disclosure - Sensitive Information in URL | 1 | International | 200 | Email | Exposure of Sensitive Information to an Unauthorized Actor |
+| Cookie With SameSite Attribute None | 5 | Low | 1275 | ttwid | Sensitive Cookie with Improper SameSite Attribute |
 |  |  |  |  |  |  |
-| Information Disclosure - Suspicious Comments | 19 | International | 200 | - | Exposure of Sensitive Information to an Unauthorized Actor |
+| Cookie without SameSite Attribute | 11 | Low | 1275 | tt_chain_token | Sensitive Cookie with Improper SameSite Attribute |
 |  |  |  |  |  |  |
 
 
@@ -115,6 +115,15 @@ The rating for the vulnerability using Manual Explore is shown in the table belo
 ### Cookie Poisoning<a name="para2h"></a>
 ### Potential XSS<a name="para2i"></a>
 ### Information Disclosure<a name="para2j"></a>
+The rating for the vulnerability using the Automated Scan is shown in the table below:
+| Cookies Type |Total Risk| Risk | CWE ID | Parameter | Additional Info |
+|---|---|---|---|---|---|
+| Information Disclosure - Debug Error Messages | 2 | Low | 200 | - | Exposure of Sensitive Information to an Unauthorized Actor|
+|  |  |  |  |  |  |
+| Information Disclosure - Sensitive Information in URL | 1 | International | 200 | Email | Exposure of Sensitive Information to an Unauthorized Actor |
+|  |  |  |  |  |  |
+| Information Disclosure - Suspicious Comments | 19 | International | 200 | - | Exposure of Sensitive Information to an Unauthorized Actor |
+|  |  |  |  |  |  |
 
 ## Prevent the Vulnerabilities<a name="para3"></a>
 
