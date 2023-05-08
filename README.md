@@ -5,6 +5,7 @@
 ## Group Members:
 1. Ikram Solehin bin Mohd Rizal 2014303
 2. Anwar bin Muzamir 1928317
+3. Azrul Zharfan bin Shuhaime 1911399
 ## Assigned Tasks for Group Members:
 1. Server OS and Server-Side Scripting used (Windows or Linux, PHP or ASP.net or JavaScript, etc.  :
 
@@ -12,7 +13,7 @@
 
 3. CSRF                                                                                            : **Ikram**
 
-4. Secured Cookies                                                                                 : 
+4. Secured Cookies                                                                                 : **Irfan**
 
 5. CSP                                                                                             : **Anwar**
 
@@ -24,14 +25,14 @@
 
 9. Potential XSS                                                                                   : 
 
-10. Information Disclosure                                                                         : 
+10. Information Disclosure                                                                         : **Azrul**
 
 ## Table of Contents
 1. [Introduction](#introduction)
 
 2. [Identify the Vulnerabilities](#para1)
-   1. [Server OS and Server-Side Scripting used (Windows or Linux, PHP or ASP.net or JavaScript, etc.](#para1a)
-   2. [Hash Disclosure](#para1b)
+   1. (#para1a)
+   2. (#para1b)
    3. [CSRF](#para1c)
    4. [Secured Cookies](#para1d)
    5. [CSP](#para1e)
