@@ -91,13 +91,13 @@ script-src 'unsafe-eval' sf16-website-login.neutral.ttwstatic.com s20.tiktokcdn.
 ### Secured Cookies<a name="para2d"></a>
 The rating for the vulnerability using the Automated Scan is shown in the table below:
 | Cookies Type |Total Risk| Risk | CWE ID | Parameter | Additional Info |
-|---|---|---|---|---|---|
+|  |  |  |  |  |  |
 |Cookie Without Secure Flag| 7 | Low | 614 | ttwid | Improper Restriction of Names for Files and Other Resources|
-|---|---|---|---|---|---|
+|  |  |  |  |  |  |
 | Cookie With SameSite Attribute None | 5 | Low | 1275 | ttwid | Sensitive Cookie with Improper SameSite Attribute |
-|---|---|---|---|---|---|
+|  |  |  |  |  |  |
 | Cookie without SameSite Attribute | 11 | Low | 1275 | tt_chain_token | Sensitive Cookie with Improper SameSite Attribute |
-|---|---|---|---|---|---|
+|  |  |  |  |  |  |
 
 
 ### CSP<a name="para2e"></a>
@@ -122,6 +122,9 @@ The rating for the vulnerability using Manual Explore is shown in the table belo
 ### Hash Disclosure<a name="para3b"></a>
 ### CSRF<a name="para3c"></a>
 ### Secured Cookies<a name="para3d"></a>
+In order to prevent the vulnerability being expose with threat are to make sure that the secure flag is set for cookies. Whenever a cookie contains sensitive information or is a session token, then it should always be passed using an encrypted channel. Besides,the SameSite attribute must be set to either 'lax' or ideally 'strict' for all cookies.
+
+
 ### CSP<a name="para3e"></a>
 To prevent the vulnerability to become a threat is to make sure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.  
 
