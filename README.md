@@ -15,7 +15,7 @@
 
 3. CSP                                                                                             : **Anwar**
 
-4. Information Disclosure                                                                         : **Azrul**
+4. Information Disclosure                                                                          : **Azrul**
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -48,7 +48,13 @@ The topic for the vulnerabilities that will be cover is the description of the i
 ## Identify the Vulnerabilities<a name="para1"></a>
 
 ### CSRF<a name="para1c"></a>
+The vulnerabilities that is found using Automated Scan for (https://www.tiktok.com/) is shown in line of code below:
+```
+<form class="search-input tiktok-dhqzc6-FormElement ev30f210" action="/search">
+```
+
 ### Secured Cookies<a name="para1d"></a>
+
 ### CSP<a name="para1e"></a>
 The vulnerabilities that is found using Automated Scan for (https://www.tiktok.com/) is shown in line of code below:  
 ```
@@ -75,6 +81,12 @@ script-src 'unsafe-eval' sf16-website-login.neutral.ttwstatic.com s20.tiktokcdn.
 ## Evaluate the Vulnerabilities<a name="para2"></a>
 
 ### CSRF<a name="para2c"></a>
+
+The rating for the vulnerability using the Automated Scan is shown in the table below:
+| RISK | Total Alerts | CWE ID | Additional Info |
+|---|---|---|---|
+| Medium | 6 | 352 | Absence of Anti-CSRF Tokens |
+
 ### Secured Cookies<a name="para2d"></a>
 The rating for the vulnerability using the Automated Scan is shown in the table below:
 | Cookies Type |Total Risk| Risk | CWE ID | Parameter | Additional Info |
@@ -97,6 +109,7 @@ The rating for the vulnerability using Manual Explore is shown in the table belo
 | RISK | CWE ID | Parameter | Additional Info |
 | --- | --- | --- | --- |
 |Medium|693|Content-Security-Policy|The frame-ancestors and form-action directives, are are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything.|
+
 ### Information Disclosure<a name="para2j"></a>
 The rating for the vulnerability using the Automated Scan is shown in the table below:
 | Cookies Type |Total Risk| Risk | CWE ID | Parameter | Additional Info |
@@ -111,6 +124,10 @@ The rating for the vulnerability using the Automated Scan is shown in the table 
 ## Prevent the Vulnerabilities<a name="para3"></a>
 
 ### CSRF<a name="para3c"></a>
+Use a vetted library or framework that does not allow this weakness to occur or provides constructs that make this weakness easier to avoid. For example, use anti-CSRF packages such as the OWASP CSRFGuard.
+
+OWASP CSRFGuard is a Java-based library that provides developers with configurable filters to help prevent CSRF attacks. The library includes a filter that automatically generates and validates CSRF tokens, making it easier for developers to implement anti-CSRF measures in their applications. By using a well-vetted and tested library like OWASP CSRFGuard, developers can reduce the likelihood of introducing vulnerabilities into their applications and improve the overall security posture of their software.
+
 ### Secured Cookies<a name="para3d"></a>
 In order to prevent the vulnerability being expose with threat are to make sure that the secure flag is set for cookies. Whenever a cookie contains sensitive information or is a session token, then it should always be passed using an encrypted channel. Besides,the SameSite attribute must be set to either 'lax' or ideally 'strict' for all cookies.
 
