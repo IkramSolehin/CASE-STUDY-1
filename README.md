@@ -6,24 +6,26 @@
 1. Ikram Solehin bin Mohd Rizal 2014303
 
 # Assigned Tasks for Group Members:
-a. Server OS and Server-Side Scripting used (Windows or Linux, PHP or ASP.net or JavaScript, etc.:
+1. Server OS and Server-Side Scripting used (Windows or Linux, PHP or ASP.net or JavaScript, etc.:
 
-b. Hash Disclosure: 
+2. Hash Disclosure: 
 
-c. CSRF: Ikram
+3. CSRF: Ikram
 
-d. Secured Cookies: 
+4. Secured Cookies: 
 
-e. CSP: 
+5. CSP: 
 
-f. JS Library: 
+6. JS Library: 
 
-g. HTTPS implementation (TLS/SSL): 
+7. HTTPS implementation (TLS/SSL): 
 
-h. Cookie Poisoning:
+8. Cookie Poisoning:
 
-i. Potential XSS: 
+9. Potential XSS: 
 
-j. Information Disclosure: 
+10. Information Disclosure: 
+
+# Table of Contents
 
 
