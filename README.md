@@ -1,11 +1,11 @@
 # CASE-STUDY-1
 
-# Group Name:
+## Group Name:
 
-# Group Members:
+## Group Members:
 1. Ikram Solehin bin Mohd Rizal 2014303
 
-# Assigned Tasks for Group Members:
+## Assigned Tasks for Group Members:
 1. Server OS and Server-Side Scripting used (Windows or Linux, PHP or ASP.net or JavaScript, etc.  :
 
 2. Hash Disclosure                                                                                 : 
@@ -26,7 +26,7 @@
 
 10. Information Disclosure                                                                         : 
 
-# Table of Contents
+## Table of Contents
 
 
 
