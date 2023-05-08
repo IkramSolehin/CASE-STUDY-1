@@ -80,6 +80,9 @@ The topic for the vulnerabilities that will be cover is the description of the i
 ### CSRF<a name="para1c"></a>
 ### Secured Cookies<a name="para1d"></a>
 ### CSP<a name="para1e"></a>
+The vulnerabilities that is found using Automated Scan is:  
+```
+```
 ### JS Library<a name="para1f"></a>
 ### HTTPS implementation (TLS/SSL)<a name="para1g"></a>
 ### Cookie Poisoning<a name="para1h"></a>
