@@ -70,7 +70,7 @@
 ## Identify the Vulnerabilities<a name="para1"></a>
 
 ### Server OS and Server-Side Scripting used (Windows or Linux, PHP or ASP.net or JavaScript, etc.<a name="para1a"></a>
-### Hash Disclosure<a name="para2a"></a>
+### Hash Disclosure<a name="para1b"></a>
 
 ## Evaluate the Vulnerabilities<a name="para2"></a>
 
