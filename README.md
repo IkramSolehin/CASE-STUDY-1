@@ -160,3 +160,5 @@ Mitigating the vulnerabilities regarding information disclosure several action i
 2. [The MITRE Corporation: CWE-ID 352](https://cwe.mitre.org/data/definitions/352.html)
 3. [The MITRE Corporation: CWE-ID 200](https://cwe.mitre.org/data/definitions/200.html)
 4. [The MITRE Corporation: CWE-ID 693](https://cwe.mitre.org/data/definitions/693.html)
+5. [The MITRE Corporation CWE-ID 1275](https://cwe.mitre.org/data/definitions/1275.html)
+6. [The MITRE Corporation CWE-ID 614](https://cwe.mitre.org/data/definitions/614.html) 
