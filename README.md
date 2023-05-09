@@ -129,11 +129,11 @@ The rating for the vulnerability using Manual Explore is shown in the table belo
 The rating for the vulnerability using the Automated Scan is shown in the table below:
 | Cookies Type |Total URLs| Risk | CWE ID | Parameter | Additional Info |
 |---|---|---|---|---|---|
-| Information Disclosure - Debug Error Messages | 4 | Low | 200 | - | Exposure of Sensitive Information to an Unauthorized Actor|
+| Information Disclosure - Debug Error Messages | 4 | Low | 200 | Internal Server Error | Exposure of Sensitive Information to an Unauthorized Actor|
 |  |  |  |  |  |  |
 | Information Disclosure - Sensitive Information in URL | 290 | Informational | 200 | Email | Exposure of Sensitive Information to an Unauthorized Actor |
 |  |  |  |  |  |  |
-| Information Disclosure - Suspicious Comments | 112 | Informational | 200 | - | Exposure of Sensitive Information to an Unauthorized Actor |
+| Information Disclosure - Suspicious Comments | 112 | Informational | 200 | User | Exposure of Sensitive Information to an Unauthorized Actor |
 |  |  |  |  |  |  |
 
 ## Prevent the Vulnerabilities<a name="para3"></a>
