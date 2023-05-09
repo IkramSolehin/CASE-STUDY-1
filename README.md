@@ -154,4 +154,4 @@ To prevent the vulnerability to become a threat is to make sure that your web se
 ### Information Disclosure<a name="para3j"></a>
 Mitigating the vulnerabilities regarding information disclosure several action is required such as disable debugging messages before pushing to production, do not pass sensitive information in URIs and remove all comments that return information that may help an attacker and fix any underlying problems they refer to.
 
-## References<a name="references'></a>
+## References<a name="references"></a>
