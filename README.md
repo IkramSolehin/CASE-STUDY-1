@@ -81,7 +81,7 @@ script-src 'unsafe-eval' sf16-website-login.neutral.ttwstatic.com s20.tiktokcdn.
 ### Information Disclosure<a name="para1j"></a>
 The vulnerabilities that is found using Automated Scan for Information Disclosure - Debug Error Messages in (https://www.tiktok.com/about) is shown in line of code below:  
 ```
-script-src 'unsafe-eval' www.gstatic.com/recaptcha/ www.google.com/recaptcha/ h.online-metrix.net c.paypal.com js.braintreegateway.com pay.google.com *.ttwstatic.com s20.tiktokcdn.com *.tiktokcdn-us.com *.tiktok.com cdn-tos-sg.byteintl.net;frame-src *.tiktok.com accounts.google.com www.facebook.com *.kakao.com lf16-web.tiktokcdn.com assets.braintreegateway.com appleid.apple.com access.line.me api.twitter.com h.online-metrix.net www.google.com/recaptcha/ recaptcha.google.com/recaptcha/ c.paypal.com js.braintreegateway.com pay.google.com *.ttwstatic.com s20.tiktokcdn.com *.tiktokcdn-us.com cdn-tos-sg.byteintl.net
+The response appeared to contain common error messages returned by platforms such as ASP.NET, and Web-servers such as IIS and Apache. You can configure the list of common debug messages.
 ```  
 The vulnerabilities that is found using Automated Scan for Information Disclosure - Sensitive Information in URL in (https://www.tiktok.com/) is shown in line of code below:  
 ```
