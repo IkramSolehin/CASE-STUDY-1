@@ -103,7 +103,7 @@ The rating for the vulnerability using the Automated Scan is shown in the table 
 
 ### Secured Cookies<a name="para2d"></a>
 The rating for the vulnerability using the Automated Scan is shown in the table below:
-| Cookies Type |Total Risk| Risk | CWE ID | Parameter | Additional Info |
+| Cookies Type |Total URLs| Risk | CWE ID | Parameter | Additional Info |
 |---|---|---|---|---|---|
 |Cookie Without Secure Flag| 7 | Low | 614 | ttwid | Improper Restriction of Names for Files and Other Resources|
 |  |  |  |  |  |  |
@@ -126,7 +126,7 @@ The rating for the vulnerability using Manual Explore is shown in the table belo
 
 ### Information Disclosure<a name="para2j"></a>
 The rating for the vulnerability using the Automated Scan is shown in the table below:
-| Cookies Type |Total Risk| Risk | CWE ID | Parameter | Additional Info |
+| Cookies Type |Total URLs| Risk | CWE ID | Parameter | Additional Info |
 |---|---|---|---|---|---|
 | Information Disclosure - Debug Error Messages | 4 | Low | 200 | - | Exposure of Sensitive Information to an Unauthorized Actor|
 |  |  |  |  |  |  |
