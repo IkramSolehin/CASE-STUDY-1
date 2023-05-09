@@ -85,11 +85,12 @@ script-src 'unsafe-eval' www.gstatic.com/recaptcha/ www.google.com/recaptcha/ h.
 ```  
 The vulnerabilities that is found using Automated Scan for Information Disclosure - Sensitive Information in URL in (https://www.tiktok.com/) is shown in line of code below:  
 ```
+The URL contains potentially sensitive information. The following string was found via the pattern: token msToken
 https://www.tiktok.com/api/policy/notice/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-US&browser_name=Mozilla&browser_online=true&browser_platform=Win32&browser_version=5.0%20%28Windows%29&channel=tiktok_web&cookie_enabled=true&device_id=7230814007669245441&device_platform=web_pc&focus_state=true&from_page=fyp&history_len=1&is_fullscreen=false&is_page_visible=true&locale=en&os=windows&priority_region=&referer=&region=MY&screen_height=768&screen_width=1366&tz_name=Asia%2FKuala_Lumpur&webcast_language=en&x-schedule-vdc=my&msToken=&X-Bogus=DFSzswSOL1kANnN7tCHZ6n2J46Qb&_signature=_02B4Z6wo00001ZOf38wAAIDCfCgYNwpxROGTj.tAAAC.43 HTTP/1.1
 ```  
 The vulnerabilities that is found using Automated Scan for Information Disclosure - Suspicious Comments in (https://lf-rc1.yhgfb-static.com/obj/rc-client-security-sg/secsdk-captcha/@latest/captcha.js) is shown in line of code below:  
 ```
-script-src 'unsafe-eval' sf16-website-login.neutral.ttwstatic.com s20.tiktokcdn.com *.tiktokcdn-us.com;frame-src *.tiktok.com accounts.google.com www.google.com recaptcha.google.com www.facebook.com *.kakao.com lf16-web.tiktokcdn.com assets.braintreegateway.com appleid.apple.com access.line.me api.twitter.com h.online-metrix.net bytedance:;worker-src https: blob:
+The following pattern was used: \bUSER\b and was detected in the element starting with: "<script id="__UNIVERSAL_DATA_FOR_REHYDRATION__" type="application/json">{"__DEFAULT_SCOPE__":{"webapp.app-context":{"language":"", see evidence field for the suspicious comment/snippet.
 ```  
 
 ## Evaluate the Vulnerabilities<a name="para2"></a>
