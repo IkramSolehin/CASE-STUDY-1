@@ -156,7 +156,7 @@ Mitigating the vulnerabilities regarding information disclosure several action i
 
 ## References<a name="references"></a>
 
-1. [OWASP ZAP](https://www.zaproxy.org/)
+1. [OWASP ZAP- Alert Details](https://www.zaproxy.org/docs/alerts/)
 2. [The MITRE Corporation: CWE-ID 352](https://cwe.mitre.org/data/definitions/352.html)
 3. [The MITRE Corporation: CWE-ID 200](https://cwe.mitre.org/data/definitions/200.html)
 4. [The MITRE Corporation: CWE-ID 693](https://cwe.mitre.org/data/definitions/693.html)
