@@ -130,9 +130,9 @@ The rating for the vulnerability using the Automated Scan is shown in the table 
 |---|---|---|---|---|---|
 | Information Disclosure - Debug Error Messages | 4 | Low | 200 | - | Exposure of Sensitive Information to an Unauthorized Actor|
 |  |  |  |  |  |  |
-| Information Disclosure - Sensitive Information in URL | 290 | International | 200 | Email | Exposure of Sensitive Information to an Unauthorized Actor |
+| Information Disclosure - Sensitive Information in URL | 290 | Informational | 200 | Email | Exposure of Sensitive Information to an Unauthorized Actor |
 |  |  |  |  |  |  |
-| Information Disclosure - Suspicious Comments | 112 | International | 200 | - | Exposure of Sensitive Information to an Unauthorized Actor |
+| Information Disclosure - Suspicious Comments | 112 | Informational | 200 | - | Exposure of Sensitive Information to an Unauthorized Actor |
 |  |  |  |  |  |  |
 
 ## Prevent the Vulnerabilities<a name="para3"></a>
