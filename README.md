@@ -38,6 +38,8 @@
    3. [CSP](#para3e)
    4. [Information Disclosure](#para3j)
 
+5. [References](#references)
+
 ## Introduction<a name="introduction"></a>
 Group Sitta will explore any web application security vulnerabilities that exist in the TikTok website. Tool that is used to perform the security vulnerabilities assessment will be OWASP ZAP which is an open-source web application security scanner which can scans through your web application to identity any security vulnerabilities as possible. An automated scan and manual scan using the OWASP ZAP on TikTok website (https://www.tiktok.com/) and as much as 24 alerts have been detected by the program. Below is the screenshot of the alerts from the scan conducted on TikTok website: 
 
@@ -151,3 +153,5 @@ To prevent the vulnerability to become a threat is to make sure that your web se
 
 ### Information Disclosure<a name="para3j"></a>
 Mitigating the vulnerabilities regarding information disclosure several action is required such as disable debugging messages before pushing to production, do not pass sensitive information in URIs and remove all comments that return information that may help an attacker and fix any underlying problems they refer to.
+
+## References<a name="references'></a>
