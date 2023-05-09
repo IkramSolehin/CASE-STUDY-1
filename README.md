@@ -79,15 +79,15 @@ The vulnerabilities that is found using Manual Explore for (https://www.tiktok.c
 script-src 'unsafe-eval' sf16-website-login.neutral.ttwstatic.com s20.tiktokcdn.com *.tiktokcdn-us.com;frame-src *.tiktok.com accounts.google.com www.google.com recaptcha.google.com www.facebook.com *.kakao.com lf16-web.tiktokcdn.com assets.braintreegateway.com appleid.apple.com access.line.me api.twitter.com h.online-metrix.net bytedance:;worker-src https: blob:
 ```  
 ### Information Disclosure<a name="para1j"></a>
-The vulnerabilities that is found using Automated Scan for Information Disclosure - Debug Error Messages is shown in line of code below:  
+The vulnerabilities that is found using Automated Scan for Information Disclosure - Debug Error Messages in (https://www.tiktok.com/about) is shown in line of code below:  
 ```
 script-src 'unsafe-eval' www.gstatic.com/recaptcha/ www.google.com/recaptcha/ h.online-metrix.net c.paypal.com js.braintreegateway.com pay.google.com *.ttwstatic.com s20.tiktokcdn.com *.tiktokcdn-us.com *.tiktok.com cdn-tos-sg.byteintl.net;frame-src *.tiktok.com accounts.google.com www.facebook.com *.kakao.com lf16-web.tiktokcdn.com assets.braintreegateway.com appleid.apple.com access.line.me api.twitter.com h.online-metrix.net www.google.com/recaptcha/ recaptcha.google.com/recaptcha/ c.paypal.com js.braintreegateway.com pay.google.com *.ttwstatic.com s20.tiktokcdn.com *.tiktokcdn-us.com cdn-tos-sg.byteintl.net
 ```  
-The vulnerabilities that is found using Automated Scan for Information Disclosure - Sensitive Information in URL is shown in line of code below:  
+The vulnerabilities that is found using Automated Scan for Information Disclosure - Sensitive Information in URL in (https://www.tiktok.com/) is shown in line of code below:  
 ```
 https://www.tiktok.com/api/policy/notice/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-US&browser_name=Mozilla&browser_online=true&browser_platform=Win32&browser_version=5.0%20%28Windows%29&channel=tiktok_web&cookie_enabled=true&device_id=7230814007669245441&device_platform=web_pc&focus_state=true&from_page=fyp&history_len=1&is_fullscreen=false&is_page_visible=true&locale=en&os=windows&priority_region=&referer=&region=MY&screen_height=768&screen_width=1366&tz_name=Asia%2FKuala_Lumpur&webcast_language=en&x-schedule-vdc=my&msToken=&X-Bogus=DFSzswSOL1kANnN7tCHZ6n2J46Qb&_signature=_02B4Z6wo00001ZOf38wAAIDCfCgYNwpxROGTj.tAAAC.43 HTTP/1.1
 ```  
-The vulnerabilities that is found using Automated Scan for Information Disclosure - Suspicious Comments is shown in line of code below:  
+The vulnerabilities that is found using Automated Scan for Information Disclosure - Suspicious Comments in (https://lf-rc1.yhgfb-static.com/obj/rc-client-security-sg/secsdk-captcha/@latest/captcha.js) is shown in line of code below:  
 ```
 script-src 'unsafe-eval' sf16-website-login.neutral.ttwstatic.com s20.tiktokcdn.com *.tiktokcdn-us.com;frame-src *.tiktok.com accounts.google.com www.google.com recaptcha.google.com www.facebook.com *.kakao.com lf16-web.tiktokcdn.com assets.braintreegateway.com appleid.apple.com access.line.me api.twitter.com h.online-metrix.net bytedance:;worker-src https: blob:
 ```  
